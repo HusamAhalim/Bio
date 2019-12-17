@@ -2,39 +2,41 @@
 
 body {
 height: 100%;
-background: linear-gradient(180deg, #1b1d7ed7 80%,
-#8b8d9270 100%);
+  background-color: cornflowerblue;
 }
 
-#name {
-  font-size: 30px;
-  font-weight: bold;
-  margin-left: 10%;
-
+.container {
+  margin-left: 300px;
+  margin-top: 25px;
+  width: 550px;
+  color: rgb(228, 212, 212);
+  font-family: ;
+  font-size: 50px;
 }
 
-#border {
-border-style: solid;
-margin-top: 5%;
-
+header {
+  background-color: rgb(110, 39, 39);
+  height: 50px;
+  padding: 20px;
+  border: 1px solid white;
 }
 
 
-
-img {
-   float: left;  
-   margin-left: 20px; 
-}
-  
 #links {
   text-align: right;
-  padding-right: 50px;
-  padding-top: 50px;
+  margin-right: 350px;
+  margin-top: 70px;
   font-size: 30px;
-  
 }
 
-#me {
-text-align: right:;
+#pic {
+  padding-top: 4px;
+  padding-left: 3px;
+margin-left: 150px;
+margin-top: 26px;
+margin-right: 150px;
+border-style: solid;
+border-width: 2px;
+border-color: black;
 
 }
