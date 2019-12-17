@@ -6,9 +6,16 @@ background: linear-gradient(180deg, #1b1d7ed7 80%,
 #8b8d9270 100%);
 }
 
+#name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10%;
+
+}
+
 #border {
 border-style: solid;
-margin-top: 10%;
+margin-top: 5%;
 
 }
 
@@ -24,7 +31,7 @@ img {
   padding-right: 50px;
   padding-top: 50px;
   font-size: 30px;
-  font
+  
 }
 
 #me {
