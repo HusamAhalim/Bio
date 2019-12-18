@@ -1,0 +1,122 @@
+body {
+    height: 100%;
+      background-color: cornflowerblue;
+    }
+    
+    
+    
+    
+    
+    
+    .container {
+      margin-left: 150px;
+      margin-top: 15px;
+      width: 920px;
+      color: rgb(14, 13, 13);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 50px;
+    }
+    
+    
+    
+    header {
+      background-color: rgb(110, 39, 39);
+      height: 50px;
+      padding: 20px;
+      border: 1px solid cornflowerblue;
+    }
+    
+    
+    #links {
+      text-align: right;
+      margin-right: 350px;
+      margin-top: 70px;
+      font-size: 15px;
+    }
+    
+    #id {
+     font: larger;
+    }
+    
+    .pic {
+      
+      padding-top: 4px;
+      padding-left: 5px;
+      margin-left: 150px;
+      margin-top: 26px;
+      margin-right: 300px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+    
+    }
+    /* ---above style for index----- */
+    /* ---below style for contact---- */
+    
+    
+      .whole {
+      
+    }
+    
+    /* clickable links */
+    #link2 {
+      font-size: 20px;
+      text-align: right;
+      margin-top:20px;
+      margin-right: 50%;
+    }
+    
+      
+    /* input areas */
+    input[type=text], select, textarea {
+      width: 90%;
+      padding: 12px;
+      border: 3px solid rgb(18, 18, 19);
+      border-radius: 40px;
+      resize: vertical;
+    }
+    
+    /* submit button */
+    input[type=submit] {
+      background-color: rgb(12, 28, 250);
+      color: rgb(248, 244, 244);
+      padding: 12px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-left: 590px;
+      margin-bottom: 15px;
+    }
+    
+    
+    
+    .container {
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      background-color: rgb(239, 241, 243);
+     
+    }
+    
+    .col-25 {
+      float: left;
+      width: 30%;
+      margin-top: 30px;
+      margin-left: 60px ;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 50%;
+      margin-top: 60px;
+    
+    }
+    
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
