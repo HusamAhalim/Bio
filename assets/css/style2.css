@@ -4,10 +4,7 @@ body {
     }
     
     
-    
-    
-    
-    
+    /* text */
     .container {
       margin-left: 150px;
       margin-top: 15px;
@@ -16,43 +13,7 @@ body {
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 50px;
     }
-    
-    
-    
-    header {
-      background-color: rgb(110, 39, 39);
-      height: 50px;
-      padding: 20px;
-      border: 1px solid cornflowerblue;
-    }
-    
-    
-    #links {
-      text-align: right;
-      margin-right: 350px;
-      margin-top: 70px;
-      font-size: 15px;
-    }
-    
-    #id {
-     font: larger;
-    }
-    
-    .pic {
-      
-      padding-top: 4px;
-      padding-left: 5px;
-      margin-left: 150px;
-      margin-top: 26px;
-      margin-right: 300px;
-      border-style: solid;
-      border-width: 2px;
-      border-color: black;
-    
-    }
-    /* ---above style for index----- */
-    /* ---below style for contact---- */
-    
+   
     
       .whole {
       
@@ -60,10 +21,10 @@ body {
     
     /* clickable links */
     #link2 {
-      font-size: 20px;
+      font-size: 30px;
       text-align: right;
       margin-top:20px;
-      margin-right: 50%;
+      margin-right: 60%;
     }
     
       
@@ -112,11 +73,5 @@ body {
     
     }
     
-    
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
     
     
