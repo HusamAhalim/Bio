@@ -56,7 +56,7 @@ a {
 /* container with photo and about me text */
 .pic {
   
-  padding-top: 4px;
+  padding-top: 5px;
   padding-left: 5px;
   margin-left: 170px;
   margin-top: 26px;
@@ -75,9 +75,21 @@ a {
   margin-right: 20px;
 }
 
-/* about me title */
+/* about me  */
 #aboutme {
   margin-right: 100px;
+}
+
+#indent1 {
+  text-indent: 50px;
+}
+
+#indent2 {
+  text-indent: 50px;
+}
+
+#text_move {
+  margin-left: 178px;
 }
  
 
