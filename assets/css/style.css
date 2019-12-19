@@ -3,36 +3,26 @@ height: 100%;
   background-color: cornflowerblue;
 }
 
-
+/* about me title */
 h1 {
   text-align: center;
   text-transform: uppercase;
   color: rgb(110, 39, 39);
 }
 
-p {
-  text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 3px;
-}
 
-a {
-  text-decoration: none;
-  color: rgb(110, 39, 39);
-}
-
-
+/* header */
 .container {
   margin-left: 150px;
   margin-top: 15px;
-  width: 1235px;
+  width: 1080px;
   color: rgb(14, 13, 13);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 50px;
 }
 
 
-
+/* header */
 header {
   background-color: rgb(110, 39, 39);
   height: 50px;
@@ -40,48 +30,52 @@ header {
   border: 1px solid cornrgbflowerblue;
 }
 
+.container {
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;
+  background-color: rgb(239, 241, 243);
+ }
 
-#links {
-  text-align: right;
-  margin-right: 350px;
-  margin-top: 70px;
-  font-size: 25px;
+
+/* links */
+a {
+  text-decoration: none;
   color: rgb(110, 39, 39);
 }
 
-#id {
- font: larger;
+#links {
+  text-align: right;
+  margin-right: 352px;
+  margin-top: 70px;
+  font-size: 25px;
+ 
 }
 
+
+/* container with photo and about me text */
 .pic {
   
   padding-top: 4px;
   padding-left: 5px;
-  margin-left: 150px;
+  margin-left: 170px;
   margin-top: 26px;
   margin-right: 300px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
+  min-height: 500px;
 
+}
+
+.profile-img {
+  float: left;
+  width: 20%;
+  max-width: 20%;
+  margin-right: 20px;
 }
 
 
 
-/* clickable links */
-#link2 {
-  font-size: 20px;
-  text-align: right;
-  margin-top:20px;
-  margin-right: 50%;
-}
-
-  .container {
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-  background-color: rgb(239, 241, 243);
  
-}
-
 
