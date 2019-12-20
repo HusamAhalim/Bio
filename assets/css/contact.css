@@ -3,75 +3,73 @@ body {
       background-color: cornflowerblue;
     }
     
+    /* about me title */
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: rgb(110, 39, 39);
+    }
     
-    /* text */
+    
+    /* header */
     .container {
       margin-left: 150px;
       margin-top: 15px;
-      width: 920px;
+      width: 1080px;
       color: rgb(14, 13, 13);
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Dancing Script', cursive;
       font-size: 50px;
     }
-   
     
-      .whole {
-      
+    
+    /* header */
+    header {
+      background-color: rgb(110, 39, 39);
+      height: 50px;
+      padding: 20px;
+      border: 1px solid cornrgbflowerblue;
     }
-    
-    /* clickable links */
-    #link2 {
-      font-size: 30px;
-      text-align: right;
-      margin-top:20px;
-      margin-right: 60%;
-    }
-    
-      
-    /* input areas */
-    input[type=text], select, textarea {
-      width: 90%;
-      padding: 12px;
-      border: 3px solid rgb(18, 18, 19);
-      border-radius: 40px;
-      resize: vertical;
-    }
-    
-    /* submit button */
-    input[type=submit] {
-      background-color: rgb(12, 28, 250);
-      color: rgb(248, 244, 244);
-      padding: 12px 20px ;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-left: 590px;
-      margin-bottom: 15px;
-    }
-    
-    
     
     .container {
       border-style: solid;
-      border-color: black;
+      border-color: rgb(0, 0, 0);
       border-width: 3px;
       background-color: rgb(239, 241, 243);
+     }
+    
+    
+    /* links */
+    a {
+      text-decoration: none;
+      color: rgb(110, 39, 39);
+    }
+    
+    #links {
+      text-align: right;
+      margin-right: 352px;
+      margin-top: 70px;
+      font-size: 25px;
      
     }
     
-    .col-25 {
-      float: left;
-      width: 30%;
-      margin-top: 30px;
-      margin-left: 60px ;
+    
+    /* container with photo and about me text */
+    .pic {
+      
+      padding-top: 5px;
+      padding-left: 5px;
+      margin-left: 170px;
+      margin-top: 26px;
+      margin-right: 300px;
+      border-style: solid;
+      border-width: 4px;
+      border-color: black;
+      min-height: 400px;
+    
     }
     
-    .col-75 {
-      float: left;
-      width: 50%;
-      margin-top: 60px;
     
+    .form {
+        margin-left: 100px;
+
     }
-    
-    
-    
